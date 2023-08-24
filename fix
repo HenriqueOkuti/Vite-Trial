@@ -1,0 +1,113 @@
+
+> vite-project@1.0.0 lint
+> eslint ./src/**/*.{js,jsx}
+
+
+/home/henriqueokuti/Documents/react-test/vite-project/src/App.jsx
+   3:16  error  Block must not be padded by blank lines                                                          padded-blocks
+   6:5   error  Fragments should contain more than one child - otherwise, there’s no need for a Fragment at all  react/jsx-no-useless-fragment
+   6:5   error  'React' must be in scope when using JSX                                                          react/react-in-jsx-scope
+   7:7   error  'React' must be in scope when using JSX                                                          react/react-in-jsx-scope
+   7:7   error  Empty components are self-closing                                                                react/self-closing-comp
+  10:4   error  Missing semicolon                                                                                semi
+  14:1   error  Too many blank lines at the end of file. Max of 0 allowed                                        no-multiple-empty-lines
+
+/home/henriqueokuti/Documents/react-test/vite-project/src/components/Counter/Counter.jsx
+   1:37  error    Strings must use singlequote                                                                    quotes
+   2:29  error    Strings must use singlequote                                                                    quotes
+   5:1   error    Expected indentation of 2 spaces but found 4                                                    indent
+   5:10  error    'counter' is never reassigned. Use 'const' instead                                              prefer-const
+   5:19  error    'setCounter' is never reassigned. Use 'const' instead                                           prefer-const
+   7:1   error    Expected indentation of 2 spaces but found 4                                                    indent
+   8:1   error    Expected indentation of 4 spaces but found 8                                                    indent
+   8:9   warning  Unexpected console statement                                                                    no-console
+   9:1   error    Expected indentation of 2 spaces but found 4                                                    indent
+   9:18  error    Missing semicolon                                                                               semi
+  11:1   error    Expected indentation of 2 spaces but found 4                                                    indent
+  12:9   error    'React' must be in scope when using JSX                                                         react/react-in-jsx-scope
+  12:9   error    Expected indentation of 6 space characters but found 8                                          react/jsx-indent
+  13:13  error    Visible, non-interactive elements with click handlers must have at least one keyboard listener  jsx-a11y/click-events-have-key-events
+  13:13  error    Non-interactive elements should not be assigned mouse or keyboard event listeners               jsx-a11y/no-noninteractive-element-interactions
+  13:13  error    'React' must be in scope when using JSX                                                         react/react-in-jsx-scope
+  13:13  error    Expected indentation of 10 space characters but found 12                                        react/jsx-indent
+  13:43  error    Expected parentheses around arrow function argument                                             arrow-parens
+  13:75  error    A space is forbidden before closing bracket                                                     react/jsx-tag-spacing
+  13:77  error    Expected indentation of 14 space characters but found 16                                        react/jsx-indent
+  14:26  error    `{counter}` must be placed on a new line                                                        react/jsx-one-expression-per-line
+  17:1   error    Expected indentation of 2 spaces but found 4                                                    indent
+  20:24  error    Newline required at end of file but not found                                                   eol-last
+
+/home/henriqueokuti/Documents/react-test/vite-project/src/components/Counter/CounterStyles.jsx
+   3:1   error  Prefer default export on a file with single export             import/prefer-default-export
+  12:25  error  Arrow function used ambiguously with a conditional expression  no-confusing-arrow
+  14:3   error  Newline required at end of file but not found                  eol-last
+
+/home/henriqueokuti/Documents/react-test/vite-project/src/components/Navbar/Navbar.jsx
+   4:1   error  Expected indentation of 2 spaces but found 4                                                     indent
+   5:9   error  Fragments should contain more than one child - otherwise, there’s no need for a Fragment at all  react/jsx-no-useless-fragment
+   5:9   error  'React' must be in scope when using JSX                                                          react/react-in-jsx-scope
+   5:9   error  Expected indentation of 6 space characters but found 8                                           react/jsx-indent
+   6:13  error  'React' must be in scope when using JSX                                                          react/react-in-jsx-scope
+   6:13  error  Expected indentation of 10 space characters but found 12                                         react/jsx-indent
+   7:17  error  'React' must be in scope when using JSX                                                          react/react-in-jsx-scope
+   7:17  error  Expected indentation of 14 space characters but found 16                                         react/jsx-indent
+   9:17  error  'React' must be in scope when using JSX                                                          react/react-in-jsx-scope
+   9:17  error  Expected indentation of 14 space characters but found 16                                         react/jsx-indent
+   9:26  error  Unexpected usage of singlequote                                                                  jsx-quotes
+  10:17  error  'React' must be in scope when using JSX                                                          react/react-in-jsx-scope
+  10:17  error  Expected indentation of 14 space characters but found 16                                         react/jsx-indent
+  10:26  error  Unexpected usage of singlequote                                                                  jsx-quotes
+  13:1   error  Expected indentation of 2 spaces but found 4                                                     indent
+  16:23  error  Newline required at end of file but not found                                                    eol-last
+
+/home/henriqueokuti/Documents/react-test/vite-project/src/main.jsx
+   1:26  error  Missing semicolon  semi
+   2:40  error  Missing semicolon  semi
+   3:24  error  Missing semicolon  semi
+   4:28  error  Missing semicolon  semi
+  10:2   error  Missing semicolon  semi
+
+/home/henriqueokuti/Documents/react-test/vite-project/src/pages/About/About.jsx
+  1:20  error  Strings must use singlequote             quotes
+  5:5   error  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  6:7   error  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  7:7   error  'React' must be in scope when using JSX  react/react-in-jsx-scope
+
+/home/henriqueokuti/Documents/react-test/vite-project/src/pages/Home/Home.jsx
+   1:20  error  Strings must use singlequote             quotes
+   2:21  error  Strings must use singlequote             quotes
+   6:5   error  'React' must be in scope when using JSX  react/react-in-jsx-scope
+   7:7   error  'React' must be in scope when using JSX  react/react-in-jsx-scope
+   8:7   error  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  10:7   error  'React' must be in scope when using JSX  react/react-in-jsx-scope
+
+/home/henriqueokuti/Documents/react-test/vite-project/src/pages/Missing/Missing.jsx
+   1:22  error  Strings must use singlequote                               quotes
+   4:1   error  Expected indentation of 2 spaces but found 4               indent
+   5:7   error  'React' must be in scope when using JSX                    react/react-in-jsx-scope
+   6:9   error  'React' must be in scope when using JSX                    react/react-in-jsx-scope
+   9:9   error  'React' must be in scope when using JSX                    react/react-in-jsx-scope
+  11:1   error  Expected indentation of 2 spaces but found 4               indent
+  12:1   error  Expected indentation of 0 spaces but found 2               indent
+  13:1   error  Trailing spaces not allowed                                no-trailing-spaces
+  14:1   error  Expected indentation of 0 spaces but found 2               indent
+  15:1   error  Trailing spaces not allowed                                no-trailing-spaces
+  15:1   error  Too many blank lines at the end of file. Max of 0 allowed  no-multiple-empty-lines
+  15:3   error  Newline required at end of file but not found              eol-last
+
+/home/henriqueokuti/Documents/react-test/vite-project/src/routes/Router.jsx
+   2:31  error  Missing trailing comma                   comma-dangle
+   8:1   error  More than 1 blank line not allowed       no-multiple-empty-lines
+   9:19  error  Block must not be padded by blank lines  padded-blocks
+  12:5   error  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  13:7   error  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  14:9   error  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  14:34  error  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  15:9   error  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  15:39  error  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  16:9   error  'React' must be in scope when using JSX  react/react-in-jsx-scope
+  16:34  error  'React' must be in scope when using JSX  react/react-in-jsx-scope
+
+✖ 87 problems (86 errors, 1 warning)
+  56 errors and 0 warnings potentially fixable with the `--fix` option.
+
