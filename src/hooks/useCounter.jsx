@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { CountContext } from '../contexts/counterProvider';
+import { CountContext } from '@contexts/counterProvider';
 
 export function useCounter() {
   const context = useContext(CountContext);

@@ -1,6 +1,6 @@
-import Counter from '../../components/Counter/Counter';
-import Navbar from '../../components/Navbar/Navbar';
-import { useTheme } from '../../hooks/useTheme';
+import Counter from '@components/Counter/Counter';
+import Navbar from '@components/Navbar/Navbar';
+import { useTheme } from '@hooks/useTheme';
 import { CustomParagraph, HomeContainer, HomeTitle } from './HomeStyles';
 
 function Home() {
@@ -12,14 +12,14 @@ function Home() {
       <HomeContainer theme={currTheme}>
         <HomeTitle theme={currTheme}>Home Page</HomeTitle>
 
-        <CustomParagraph theme={currTheme} leftBorder={true}>
+        <CustomParagraph theme={currTheme} leftBorder>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
           corporis esse non excepturi nisi dolorum illo ut illum maiores
           laboriosam. Culpa expedita fuga iusto animi reprehenderit debitis
           natus neque quae!
         </CustomParagraph>
 
-        <CustomParagraph theme={currTheme} leftBorder={true}>
+        <CustomParagraph theme={currTheme} leftBorder>
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae vitae dicta
@@ -35,7 +35,7 @@ function Home() {
           qui dolorem eum fugiat quo voluptas nulla pariatur?
         </CustomParagraph>
 
-        <CustomParagraph>Anyway, here's a counter:</CustomParagraph>
+        <CustomParagraph>Anyway, here&apos;s a counter:</CustomParagraph>
 
         <Counter />
       </HomeContainer>

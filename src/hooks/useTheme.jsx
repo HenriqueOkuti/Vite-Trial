@@ -1,6 +1,6 @@
 import { useContext } from 'react';
-import { themeInverter } from '../utils/themeInverter';
-import { ThemeContext } from '../contexts/themeProvider';
+import { themeInverter } from '@utils/themeInverter';
+import { ThemeContext } from '@contexts/themeProvider';
 
 export function useTheme() {
   const context = useContext(ThemeContext);

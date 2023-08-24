@@ -1,4 +1,4 @@
-import { useTheme } from '../../hooks/useTheme';
+import { useTheme } from '@hooks/useTheme';
 import { ThemeApplier } from './ThemeWrapperStyles';
 
 export function ThemeWrapper({ children }) {

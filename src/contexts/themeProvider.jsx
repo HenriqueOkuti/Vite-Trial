@@ -1,5 +1,5 @@
 import { createContext, useMemo, useState } from 'react';
-import { theme as themeDict } from '../themes/Themes';
+import { theme as themeDict } from '@themes/Themes';
 
 export const ThemeContext = createContext();
 
@@ -14,7 +14,7 @@ export function ThemeProvider({ children }) {
       setTheme,
       setCurrTheme,
     }),
-    [theme, currTheme]
+    [theme, currTheme],
   );
 
   return (

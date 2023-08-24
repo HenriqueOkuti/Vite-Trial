@@ -1,5 +1,5 @@
-import Navbar from '../../components/Navbar/Navbar';
-import { useTheme } from '../../hooks/useTheme';
+import Navbar from '@components/Navbar/Navbar';
+import { useTheme } from '@hooks/useTheme';
 import { AboutContainer, AboutTitle, GenericText } from './AboutStyles';
 
 function About() {
@@ -11,7 +11,7 @@ function About() {
       <AboutContainer theme={currTheme}>
         <AboutTitle theme={currTheme}>About Page</AboutTitle>
 
-        <GenericText border={true} theme={currTheme}>
+        <GenericText border theme={currTheme}>
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae vitae dicta

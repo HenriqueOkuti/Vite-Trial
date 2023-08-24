@@ -1,5 +1,6 @@
+import { useSetTheme } from '@hooks/useTheme';
+import { Switch } from '@mui/material';
 import { Link } from 'react-router-dom';
-import { useSetTheme } from '../../hooks/useTheme';
 import { NavigationBar, UtilityBar } from './NavbarStyles';
 
 function Navbar() {
@@ -13,7 +14,7 @@ function Navbar() {
     <NavigationBar>
       <Link to='/'>Home</Link>
       <UtilityBar>
-        <div onClick={handleThemeSwitch}>Theme</div>
+        <Switch onClick={handleThemeSwitch} />
         <Link to='/about'>About</Link>
       </UtilityBar>
     </NavigationBar>

@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from '../pages/Home/Home';
-import About from '../pages/About/About';
-import Missing from '../pages/Missing/Missing';
+import Home from '@pages/Home/Home';
+import About from '@pages/About/About';
+import Missing from '@pages/Missing/Missing';
 
 function Router() {
   return (

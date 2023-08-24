@@ -35,6 +35,5 @@ export const CustomParagraph = styled.p.withConfig({
   padding: 0 1rem 0 1rem;
 
   color: ${(props) => props.theme.palette?.textColor?.default};
-  border-left: ${(props) =>
-    props.leftBorder ? '2.5px solid #2d3a3a' : 'none'};
+  border-left: ${(props) => (props.leftBorder ? '2.5px solid #2d3a3a' : 'none')};
 `;

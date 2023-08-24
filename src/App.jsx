@@ -1,7 +1,7 @@
-import { ThemeWrapper } from './components/ThemeWrapper/ThemeWrapper';
-import { CounterProvider } from './contexts/counterProvider';
-import { ThemeProvider } from './contexts/themeProvider';
-import Router from './routes/Router';
+import { ThemeWrapper } from '@components/ThemeWrapper/ThemeWrapper';
+import { CounterProvider } from '@contexts/counterProvider';
+import { ThemeProvider } from '@contexts/themeProvider';
+import Router from '@routes/Router';
 
 function App() {
   return (

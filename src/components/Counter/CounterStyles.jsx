@@ -9,8 +9,7 @@ export const CounterMenu = styled(Button)`
   height: 50px;
   color: #fdfdfd !important;
 
-  background-color: ${(props) =>
-    props.number % 2 === 0 ? '#004777' : '#823329'} !important;
+  background-color: ${(props) => (props.number % 2 === 0 ? '#004777' : '#823329')} !important;
 
   margin: 25px;
 `;
